@@ -69,4 +69,12 @@ public:
                FRONT = FRONT + 1;
         }
     }
+    void display()
+    {
+        int FRONT_pasitrion = FRONT;
+        int REAR_position = REAR;
+
+        
+    }
+    
 };
