@@ -7,4 +7,11 @@ private:
       static const int max = 5;
       int FRONT, REAR;
       int queu_array[5];
+
+public:
+      Queues()
+      {
+        FRONT = -1;
+        REAR = -1;
+      }
 };
