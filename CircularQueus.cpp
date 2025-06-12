@@ -61,5 +61,12 @@ public:
             FRONT = -1;
             REAR = 0;
         }
+        else 
+        {
+            if (FRONT == max -1)
+                FRONT = 0;
+            else
+               FRONT = FRONT + 1;
+        }
     }
 };
